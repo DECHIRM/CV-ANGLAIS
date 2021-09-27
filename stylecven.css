@@ -1,0 +1,68 @@
+body {
+    background-color: white; /*Background color of the website*/
+    color:black;    /*Color of the font*/
+    font-family: 'Arial'; /*Global font of the website*/
+}
+
+.name {
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 35px; /*Font size of the top*/
+}
+
+hr {
+    margin-top: -17px; /*Space between the previous paragraph*/
+    margin-right: 3vw; /*Space between at the left of the page*/
+    height: 1px;        /* height of hr */
+    color: rgb(99, 99, 99); /* Color of hr */
+    background-color: rgb(99, 99, 99); /* Color of hr but for old browser*/
+}
+
+.top {
+    margin-top: -20px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 16px; /*Font size of the top part*/
+}
+
+.PersonalProfile {
+    margin-top: 15px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Personal Profile part*/
+}
+
+.Education {
+    margin-top:  40px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Educationand Training part*/
+}
+
+.WorkExperienceS {
+    margin-top:  40px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Work Experience part*/
+}
+
+.InterestsandHoobies {
+    margin-bottom:  40px; /*Space between the previous paragraph*/
+    margin-top:  40px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Interests and Hoobies*/
+}
+
+.Skills {
+    margin-top:  40px; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Skills*/
+}
+
+p span  {
+    display: block; /*Thing for not use <br> */
+}
+
+:root /*Remove scrollbar on Firefox*/ { 
+    scrollbar-width: none !important 
+}
+
+body::-webkit-scrollbar /*Remove scrollbar on Chrome and Edge*/ { 
+    width: 0 !important
+}
