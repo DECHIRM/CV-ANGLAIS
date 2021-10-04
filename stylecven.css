@@ -24,6 +24,12 @@ hr {
     font-size: 16px; /*Font size of the top part*/
 }
 
+img {
+    height: 16px;
+    width: 14px;
+    margin-top: 3px;
+}
+
 .PersonalProfile {
     margin-top: 15px; /*Space between the previous paragraph*/
     margin-left: 3%; /*Space at the left of the page*/
