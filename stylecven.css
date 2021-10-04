@@ -25,9 +25,9 @@ hr {
 }
 
 img {
-    height: 16px;
-    width: 14px;
-    margin-top: 3px;
+    height: 16px;    /*Size of the logos*/
+    width: 14px;     /*Size of the logos*/
+    margin-top: 3px; /*Marging at the top*/
 }
 
 .PersonalProfile {
